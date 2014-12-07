@@ -9,7 +9,7 @@ import cv2
 w = 640
 h = 480
 
-fourcc = cv2.cv.CV_FOURCC(*'X264')#cv2.VideoWriter_fourcc(*'XVID')
+fourcc = cv2.cv.CV_FOURCC(*'VP80')
 out = cv2.VideoWriter('output.avi',fourcc, 20.0, (w,h))
 
 
